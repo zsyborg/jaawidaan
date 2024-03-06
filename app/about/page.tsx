@@ -22,26 +22,20 @@ function About() {
           <div className="one_third">
             <div className="info-code">
               <p className="info-code-title">Founded</p>
-              <p className="info-code-content">MCMLXXXII</p>
+              <p className="info-code-content">2021</p>
             </div>
             <div className="info-code">
-              <p className="info-code-title">Art Director</p>
-              <p className="info-code-content">PETER WALL</p>
+              <p className="info-code-title">Director</p>
+              <p className="info-code-content">SOGHARA RIZWI</p>
             </div>
             <div className="info-code">
-              <p className="info-code-title">Headquarter</p>
-              <p className="info-code-content">NEW YORK</p>
+              <p className="info-code-title">Headquarters</p>
+              <p className="info-code-content">Mumbai, INdia</p>
             </div>
           </div>
           {/* Description text */}
           <div className="two_third last">
-            Why end might ask civil again spoil. She dinner she our horses
-            depend. Remember at children by reserved to vicinity. In affronting
-            unreserved delightful simplicity ye. Law own advantage furniture
-            continual sweetness bed agreeable perpetual. Oh song well four only
-            head busy it. Afford son she had lively living. Tastes lovers myself
-            too formal season our valley boy. Lived it their their walls might
-            to by young.
+          With a rich history rooted in craftsmanship, Jaawidaan has honed the art of creating exquisite products. Each piece is a testament to our dedication to quality and attention to detail. From design concept to the final product, we strive for excellence, ensuring that every item reflects the essence of our brand.
             <br />
           </div>
           <div className="clear"></div>
@@ -69,19 +63,15 @@ function About() {
               className="testimonial-slider slider"
             >
               <SwiperSlide className="testimonial-content">
-                The goal of a designer is to listen, observe, understand,
-                sympathize, empathize, synthesize, and glean insights that
-                enable him or her to make the invisible visible
+              Established in the vibrant city of Mumbai, India, in the year 2000, Jaawidaan is more than just a brand; it's a celebration of passion, creativity, and the art of crafting beautiful things.
               </SwiperSlide>
               <SwiperSlide className="testimonial-content">
-                All architecture is shelter, all great architecture is the
-                design of space that contains, cuddles, exalts, or stimulates
-                the persons in that space
+              We are driven by an unwavering passion for creativity. For over two decades, we have been dedicated to bringing unique and elegant daily essentials to homes across the globe.
                 <br />
               </SwiperSlide>
               <SwiperSlide className="testimonial-content">
                 As an architect, you design for the present, with an awareness
-                of the past, for a future which is essentially unknown.
+                of the past, for a future which is essentially elegant.
                 <br />
               </SwiperSlide>
             </Swiper>
@@ -90,7 +80,7 @@ function About() {
           <br />
 
           {/* Description text */}
-          <div className="two_third">
+          <div className="two_third hidden">
             Prudent cordial comfort do no on colonel as assured chicken. Smart
             mrs day which begin. Snug do sold mr it if such. when. Her
             especially are a unpleasant out alteration continuing unreserved
@@ -101,7 +91,7 @@ function About() {
             <br />
           </div>
           {/* Progress bars */}
-          <div className="one_third last">
+          <div className="one_third last hidden">
             <div className="progress_bar">
               <div className="progress_bar_title">PHOTOSHOP</div>
               <div className="progress_bar_field_holder">
