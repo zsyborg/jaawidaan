@@ -5,6 +5,8 @@ import axios from "axios";
 
 // -----------
 
+
+
 // to handle sending form message
 type serverStateType = {
   submitting: boolean;
@@ -81,7 +83,7 @@ const Contact = () => {
     setServerState({ submitting: true });
     axios({
       method: "post",
-      url: "https://formspree.io/f/xgebyqqz", // user formspree endpoint
+      url: "https://formspree.io/f/xjvnogvw", // user formspree endpoint
       data: formData,
     })
       .then((r) => {
@@ -100,28 +102,22 @@ const Contact = () => {
           <div className="one_third">
             <h2 className="big-text">Hello, drop us a line or two</h2>
           </div>
-          <div className="two_third last">
-            Why end might ask civil again spoil. She dinner she our horses
-            depend. Remember at children by reserved to vicinity. In affronting
-            unreserved delightful simplicity ye. Law own advantage furniture
-            continual sweetness bed agreeable perpetual.
-          </div>
+          
           <div className="clear"></div>
-          <br />
-          <br />
+          
           {/* Contact Informations and links */}
           <div className="one_third">
             <div className="info-code">
               <p className="info-code-title">Phone</p>
-              <p className="info-code-content">+123.456.789</p>
-            </div>
-            <div className="info-code">
-              <p className="info-code-title">Skype</p>
-              <p className="info-code-content">DONEC.SIT.AMET</p>
+              <p className="info-code-content">+91 9004337075 </p>
             </div>
             <div className="info-code">
               <p className="info-code-title">Email</p>
-              <p className="info-code-content">HELLO@YOURSITE.COM</p>
+              <p className="info-code-content"><a href="mailto:info@jaawidaan.in">info@jaawidaan.in</a></p>
+            </div>
+            <div className="info-code">
+              <p className="info-code-title">Localtion</p>
+              <p className="info-code-content">Mumbai, India</p>
             </div>
           </div>
           {/* Contact Form */}

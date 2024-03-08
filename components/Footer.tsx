@@ -2,6 +2,7 @@ import Link from "next/link";
 
 // Images
 import footerLogo from "@/assets/images/footer_logo_@x2.png";
+import logo from "@/assets/images/logo.png";
 
 // ----------
 
@@ -12,12 +13,12 @@ const Footer = () => {
         {/* Your Contact links */}
         <div className="footer-logo">
           <Link href="/">
-            <img src={footerLogo.src} alt="Opta" />
+            <img src={logo.src} alt="Jaawidaan" />
           </Link>
         </div>
         <div className="footer-text">
           <p className="footer-first-line">
-            <Link href="mailto:hello@yoursite.com">hello@jaawidaan.com</Link>
+            <Link href="mailto:info@jaawidaan.com">info@jaawidaan.com</Link>
           </p>
           <p className="footer-second-line">
             or can use our <Link href="/contact">contact form</Link> as well
