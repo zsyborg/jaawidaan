@@ -126,7 +126,7 @@ body a:hover {
 }
 
 .header-logo img {
-  width: 70px;
+  width: 160px;
   -webkit-transition: opacity 0.3s linear;
   transition: opacity 0.3s linear;
 }
@@ -1474,8 +1474,8 @@ footer ul {
 .footer-logo {
   padding-bottom: 130px;
   position: relative;
-  width: 70px;
-  height: 70px;
+  width: 200px;
+  height: auto;
   margin: 0 auto;
   padding-top: 90px;
 }

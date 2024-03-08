@@ -87,8 +87,8 @@ function Home() {
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
-                  <Link className="portfolio-text" href="/single-portfolio">
-                    Sweatshirt
+                  <Link className="portfolio-text" href="#">
+                    Tableware
                   </Link>
                   <p className="portfolio-category">
                     <Link href="">Fashion</Link>
@@ -109,24 +109,9 @@ function Home() {
             className="grid-item element-item "
           >
             <div className="item-wrapper">
-              <Link href="/single-portfolio">
                 <img src={img03.src} alt="" />
-              </Link>
-              <div className="portfolio-text-holder">
-                <div className="portfolio-info">
-                  <Link className="portfolio-text" href="/single-portfolio">
-                    Office
-                  </Link>
-                  <p className="portfolio-category">
-                    <Link href="">Interior</Link>
-                  </p>
-                  <p className="portfolio-arrow">
-                    <Link href="/single-portfolio">
-                      <img src={arrow.src} alt="" />
-                    </Link>
-                  </p>
-                </div>
-              </div>
+              
+              
             </div>
           </motion.li>
           {/* Quote Item */}
@@ -136,7 +121,7 @@ function Home() {
             viewport={{ once: true }}
             className="grid-item element-item quote-item "
           >
-            At Jaawiidaan, we redefine luxury in everyday life. We understand that elegance and sophistication should seamlessly integrate into every aspect of your corporate space or home. As a premier provider of exquisite everyday products, we curate a collection that exudes opulence, functionality, and timeless style.
+            At Jaawidaan, we redefine luxury in everyday life. We understand that elegance and sophistication should seamlessly integrate into every aspect of your corporate space or home. As a premier provider of exquisite everyday products, we curate a collection that exudes opulence, functionality, and timeless style.
           </motion.li>
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
@@ -150,17 +135,16 @@ function Home() {
               </Link>
               <div className="portfolio-text-holder">
                 <div className="portfolio-info">
-                  <Link className="portfolio-text" href="/single-portfolio">
-                    Bracelet
-                  </Link>
-                  <p className="portfolio-category">
-                    <Link href="">Jewelry</Link>
-                  </p>
-                  <p className="portfolio-arrow">
+                    <h3>
+                      Kitchenware
+                      </h3>
+                  
+                  
+                  {/* <p className="portfolio-arrow">
                     <Link href="/single-portfolio">
                       <img src={arrow.src} alt="" />
                     </Link>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -171,7 +155,7 @@ function Home() {
             viewport={{ once: true }}
             className="grid-item element-item "
           >
-            <div className="item-wrapper">
+            {/* <div className="item-wrapper">
               <Link href="/single-portfolio">
                 <img src={img05.src} alt="" />
               </Link>
@@ -190,7 +174,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </motion.li>
           <motion.li
             initial={{ opacity: 0, transform: `translateY(50px)` }}
