@@ -24,10 +24,10 @@ function About() {
               <p className="info-code-title">Founded</p>
               <p className="info-code-content">2021</p>
             </div>
-            <div className="info-code">
+            {/* <div className="info-code">
               <p className="info-code-title">Director</p>
               <p className="info-code-content">SOGHARA RIZWI</p>
-            </div>
+            </div> */}
             <div className="info-code">
               <p className="info-code-title">Headquarters</p>
               <p className="info-code-content">Mumbai, INdia</p>
