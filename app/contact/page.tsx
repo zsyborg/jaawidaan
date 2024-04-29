@@ -120,7 +120,7 @@ const Contact = () => {
           </div>
 
           <div className="one_third">
-            <h2 className="big-text">Hello, drop us a line or two</h2>
+            <h2 className="big-text">Hello,<br/> drop us a line or two</h2>
           </div>
           {/* Contact Form */}
           <div className="two_third last hidden">
