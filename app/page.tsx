@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
-
+// import {FontAwesome} from '@fortawesome/free-solid-svg-icons';
+import { fa2, faHeart } from "@fortawesome/free-solid-svg-icons";
+import 'font-awesome/css/font-awesome.min.css';
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -40,7 +42,7 @@ function Home() {
       {/* Page intro text */}
       <div className="content-1140 header-content center-relative block">
         <h1 className="entry-title">
-          Elegant Buffetware, Tableware, Decor made with Love Bombay, India.<br/> Creating & Crafting since 2000
+          Elegant Buffetware, Tableware, Decor made with <i className="fa fas fa-heart" style={{color:"red"}} /> Bombay, India.<br/> Creating & Crafting Circa, 2000
         </h1>
         {/* <p className="page-desc">PETER WALL + COCO BASIC</p> */}
       </div>
