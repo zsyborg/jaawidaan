@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className="footer-text">
           <p className="footer-first-line">
-            <Link href="mailto:info@jaawidaan.com">info@jaawidaan.com</Link>
+            <Link href="mailto:info@jaawidaan.com">alliance@jaawidaan.com</Link>
           </p>
           <p className="footer-second-line">
             or can use our <Link href="/contact">contact form</Link> as well
@@ -47,12 +47,12 @@ const Footer = () => {
           </li>
           {/* Recent Blog Articles */}
           <li className="widget widget_recent_entries">
-          <h4 className="widgettitle">Jaawidaan</h4>
+          <h4 className="widgettitle">Headquarter</h4>
             {/* Contact Info */}
             <div className="textwidget">
               <p>Bombay, India</p>
               <p>Mobile: +91 9004337075</p>
-              <p>Email: hello@jaawidaan.com</p>
+              <p>Email: alliance@jaawidaan.com</p>
             </div>
             {/* <h4 className="widgettitle">Recent Posts</h4>
             <ul>

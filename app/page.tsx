@@ -39,8 +39,7 @@ function Home() {
       {/* Page intro text */}
       <div className="content-1140 header-content center-relative block">
         <h1 className="entry-title">
-          Elegant Dailywares from <Link href="/about">Bombay, India</Link> passionate about
-          creativity and crafting things since 2000.
+          Elegant Buffetware, Tableware, Decor made with Love Bombay, India. Creating & Crafting since 2000
         </h1>
         {/* <p className="page-desc">PETER WALL + COCO BASIC</p> */}
       </div>
