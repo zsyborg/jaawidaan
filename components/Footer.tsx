@@ -50,7 +50,7 @@ const Footer = () => {
           <h4 className="widgettitle">Jaawidaan</h4>
             {/* Contact Info */}
             <div className="textwidget">
-              <p>Mumbai, India</p>
+              <p>Bombay, India</p>
               <p>Mobile: +91 9004337075</p>
               <p>Email: hello@jaawidaan.com</p>
             </div>
