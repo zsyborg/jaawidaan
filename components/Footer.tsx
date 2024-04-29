@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className="footer-text">
           <p className="footer-first-line">
-            <Link href="mailto:info@jaawidaan.com">alliance@jaawidaan.com</Link>
+            <Link href="mailto:info@jaawidaan.in">alliance@jaawidaan.in</Link>
           </p>
           {/* <p className="footer-second-line">
             or can use our <Link href="/contact">contact form</Link> as well
