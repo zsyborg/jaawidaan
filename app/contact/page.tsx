@@ -117,7 +117,7 @@ const Contact = () => {
             </div>
             <div className="info-code">
               <p className="info-code-title">Localtion</p>
-              <p className="info-code-content">Mumbai, India</p>
+              <p className="info-code-content">Bombay, India</p>
             </div>
           </div>
           {/* Contact Form */}
