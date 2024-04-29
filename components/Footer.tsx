@@ -52,7 +52,7 @@ const Footer = () => {
             <div className="textwidget">
               <p>Bombay, India</p>
               <p>Mobile: +91 9004337075</p>
-              <p>Email: alliance@jaawidaan.com</p>
+              <p>Email: alliance@jaawidaan.in</p>
             </div>
             {/* <h4 className="widgettitle">Recent Posts</h4>
             <ul>
