@@ -116,14 +116,14 @@ const Header = () => {
                         Gallery
                       </Link>
                     </li> */}
-                    <li>
+                    {/* <li>
                       <Link
                         href="/contact"
                         className={pathname === "/contact" ? "current" : ""}
                       >
                         Contact
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                   {/* <form role="search" className="search-form">
                     <label>
