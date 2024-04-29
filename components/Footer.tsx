@@ -20,9 +20,9 @@ const Footer = () => {
           <p className="footer-first-line">
             <Link href="mailto:info@jaawidaan.com">alliance@jaawidaan.com</Link>
           </p>
-          <p className="footer-second-line">
+          {/* <p className="footer-second-line">
             or can use our <Link href="/contact">contact form</Link> as well
-          </p>
+          </p> */}
         </div>
         {/* <div className="our-position-holder">
           <div className="our-position-left">
