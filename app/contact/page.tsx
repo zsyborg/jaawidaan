@@ -121,7 +121,7 @@ const Contact = () => {
             </div>
           </div>
           {/* Contact Form */}
-          <div className="two_third last">
+          <div className="two_third last hidden">
             <form className="contact-form" onSubmit={handleSubmit}>
               <p>
                 <input

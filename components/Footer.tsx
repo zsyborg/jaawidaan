@@ -91,12 +91,12 @@ const Footer = () => {
           <li className="copyright-footer">
             © {new Date(Date.now()).getFullYear()} - Jaawidaan inc
           </li>
-          <li className="social-footer">
+          {/* <li className="social-footer">
             <Link href="https://twitter.com/">LINKEDIN</Link>
             <Link href="https://www.facebook.com/">FACEBOOK</Link>
             <Link href="https://www.instagram.com/">INSTAGRAM</Link>
             
-          </li>
+          </li> */}
         </ul>
       </div>
     </footer>

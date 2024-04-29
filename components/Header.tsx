@@ -75,7 +75,7 @@ const Header = () => {
             >
               <div className="menu-left-part">
                 <div className="menu-left-text">
-                  Welcome to Jaawidaan. We provide Luxury & Elegant daily ware products{" "}
+                  Welcome to Jaawidaan. We provide Luxury & Elegant handicrafts{" "}
                   {/* <Link href="/blog">thoughts</Link> or you can simply{" "}
                   <Link href="/contact">write to us</Link> */}
                 </div>
@@ -116,14 +116,14 @@ const Header = () => {
                         Gallery
                       </Link>
                     </li> */}
-                    {/* <li>
+                    <li>
                       <Link
                         href="/contact"
                         className={pathname === "/contact" ? "current" : ""}
                       >
                         Contact
                       </Link>
-                    </li> */}
+                    </li>
                   </ul>
                   {/* <form role="search" className="search-form">
                     <label>
