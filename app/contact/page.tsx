@@ -113,7 +113,7 @@ const Contact = () => {
             </div>
             <div className="info-code">
               <p className="info-code-title">Email</p>
-              <p className="info-code-content"><a href="mailto:info@jaawidaan.in">info@jaawidaan.in</a></p>
+              <p className="info-code-content"><a href="mailto:alliance@jaawidaan.in">alliance@jaawidaan.in</a></p>
             </div>
             <div className="info-code">
               <p className="info-code-title">Localtion</p>
