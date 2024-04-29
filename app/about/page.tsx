@@ -22,7 +22,7 @@ function About() {
           <div className="one_third">
             <div className="info-code">
               <p className="info-code-title">Founded</p>
-              <p className="info-code-content">2021</p>
+              <p className="info-code-content">2000</p>
             </div>
             {/* <div className="info-code">
               <p className="info-code-title">Director</p>
@@ -30,7 +30,7 @@ function About() {
             </div> */}
             <div className="info-code">
               <p className="info-code-title">Headquarters</p>
-              <p className="info-code-content">Mumbai, INdia</p>
+              <p className="info-code-content">Bombay, India</p>
             </div>
           </div>
           {/* Description text */}
