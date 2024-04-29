@@ -18,6 +18,7 @@ import img09 from "@/assets/images/home/img_09.jpg";
 import img10 from "@/assets/images/home/img_10.jpg";
 import img11 from "@/assets/images/home/img_11.jpg";
 
+
 /**
  *
  * TODO:
@@ -39,7 +40,7 @@ function Home() {
       {/* Page intro text */}
       <div className="content-1140 header-content center-relative block">
         <h1 className="entry-title">
-          Elegant Buffetware, Tableware, Decor made with Love Bombay, India. Creating & Crafting since 2000
+          Elegant Buffetware, Tableware, Decor made with Love Bombay, India.<br/> Creating & Crafting since 2000
         </h1>
         {/* <p className="page-desc">PETER WALL + COCO BASIC</p> */}
       </div>
