@@ -99,9 +99,7 @@ const Contact = () => {
       <div id="content" className="site-content">
         <div className="content-945 center-relative">
           {/* Contact Page description text */}
-          <div className="one_third">
-            <h2 className="big-text">Hello, drop us a line or two</h2>
-          </div>
+          
           
           <div className="clear"></div>
           
@@ -119,6 +117,10 @@ const Contact = () => {
               <p className="info-code-title">Localtion</p>
               <p className="info-code-content">Bombay, India</p>
             </div>
+          </div>
+
+          <div className="one_third">
+            <h2 className="big-text">Hello, drop us a line or two</h2>
           </div>
           {/* Contact Form */}
           <div className="two_third last hidden">
